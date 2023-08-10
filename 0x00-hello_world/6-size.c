@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
  * main - 6-size.c
- * description - Write a C program that prints the size of various types on the computer it is compiled and run on.
+ * description - Entry point
  *
- * Return: always (0) (success);
+ * Return: always (0) (success)
  */
 int main(void)
 {
@@ -14,3 +14,5 @@ int main(void)
 	printf("size of a float: %lu byte(s)\n", sizeof(float));
 	return (0);
 }
+
+
