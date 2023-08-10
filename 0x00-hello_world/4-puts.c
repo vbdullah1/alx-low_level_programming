@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
-*Hello C
+*main - entry poit
+*return : always 0 (Bsuccess)
 */
 int main(void)
 {
