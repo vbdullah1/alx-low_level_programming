@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - 6-size.c
- * description - Entry point
+ * description - Entry pointt
  *
  * Return: always (0) (success)
  */
