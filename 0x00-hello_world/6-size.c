@@ -1,19 +1,16 @@
 #include <stdio.h>
 /**
  * main - 6-size.c
- * description - Write a C program that prints the size of various types on
- * the computer it is compiled and run on.
+ * description - Write a C program that prints the size of various types on the computer it is compiled and run on.
  *
  * Return: always (0) (success);
  */
 int main(void)
 {
-	int i;
-	double d;
-	char c;
-
-	printf("The size of an int is: %lu.\n",  byte(s)\n", (unsigned long)sizeof(i));
-	printf("The size of an double is: %lu.\n", (unsigned long)sizeof(d));
-	printf("The size of an c is: %lu.\n", (unsigned long)sizeof(c));
-
-	return(0);
+	printf("size of a char: %lu byte(s)\n", sizeof(char));
+	printf("size of a int: %lu byte(s)\n", sizeof(long int));
+	printf("size of a long int: %lu byte(s)\n", sizeof(long int));
+	printf("size of a long long int: %lu byte(s)\n", sizeof(long long int));
+	printf("size of a float: %lu byte(s)\n", sizeof(float));
+	return (0);
+}
