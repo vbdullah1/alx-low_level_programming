@@ -12,11 +12,8 @@ int main(void)
 	double d;
 	char c;
 
-	printf("size of a char: %lu byte(s)\n", sizeof(char));
-	printf("size of an int: %lu byte(s)\n", sizeof(int));
-	printf("size of a long int: %lu byte(s)\n", sizeof(long int));
-	printf("size of a long long int: %lu byte (s)\n", sizeof(long long long int));
-	printf("size of a float: %lu byte(s)\n", sizeof(float));
+	printf("The size of an int is: %lu.\n",  byte(s)\n", (unsigned long)sizeof(i));
+	printf("The size of an double is: %lu.\n", (unsigned long)sizeof(d));
+	printf("The size of an c is: %lu.\n", (unsigned long)sizeof(c));
 
-	return (0);
-}
+	return(0);
