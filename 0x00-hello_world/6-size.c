@@ -1,8 +1,4 @@
-#include <stdio.h>
-/**
- * main - 6-size.c
- * description -
- *
+
  * char c;
  * int;
  * long int li;
